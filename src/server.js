@@ -13,7 +13,7 @@ const serverError = require('./error-handlers/500');
 app.use(logger);
 
 app.get("/", (req, res) => {
-    res.send("Welcom to Home page")
+    res.send("Hello word")
 })
 
 app.get("/person", validator, (req, res) => {
