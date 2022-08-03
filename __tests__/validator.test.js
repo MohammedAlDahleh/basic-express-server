@@ -16,7 +16,7 @@ describe("testing Validator", () => {
     })
 
     test("name is in the query string", async () => {
-        const response = await request.get("/person?name=shams")
+        const response = await request.get("/person?name=mohammed")
         expect(response.status).toEqual(200);
     })
 
