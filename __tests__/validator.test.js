@@ -23,7 +23,7 @@ describe("testing Validator", () => {
 
     test(" Output object is correct", async () => {
         const response = await request.get('/person?name=shams');
-        expect(response.body).toEqual({ "name": "shams" })
+        expect(response.body).toEqual({ "name": "mohammed" })
 
     })
 
